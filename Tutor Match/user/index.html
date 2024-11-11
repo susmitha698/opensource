@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tutoring App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Tutoring App</h1>
+    
+    <!-- Form to Add Tutor -->
+    <form id="tutorForm">
+      <input type="text" id="name" placeholder="Tutor Name" required />
+      <input type="text" id="subject" placeholder="Subject" required />
+      <button type="submit">Add Tutor</button>
+    </form>
+
+    <!-- List of Tutors -->
+    <h2>Available Tutors</h2>
+    <ul id="tutorList"></ul>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
